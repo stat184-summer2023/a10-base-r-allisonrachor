@@ -1,7 +1,7 @@
 ---
-title: "Fix the title"
-author: "Your Name Here"
-date: "Add the date"
+title: "Base R Activity"
+author: "Allison Rachor"
+date: "6/23/23"
 output: 
     html_notebook
 ---
@@ -12,13 +12,16 @@ output:
 
 ```{r}
 data(iris)
-
+iris[10, 5]
+library(tidyverse)
 ```
 
 
 #### Select the Species column in `iris` dataset and print the last 5 rows of that column
 ```{r}
-
+iris %>%
+  select(Species) %>%
+  tail(5)
 ```
 
 
