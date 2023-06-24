@@ -89,6 +89,7 @@ for (j in 1:length(Cols)){
     
   }
 }
+Counting
 ```
 
 ### Question 5: user defined functions
